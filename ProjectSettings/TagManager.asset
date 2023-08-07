@@ -3,24 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Hazard
+  - No Collisions
+  - Shot
+  - Destructible
+  - PickUps
+  - TriggerZone
+  - Boss
+  - BossShot
   - 
   - 
   - 
@@ -38,6 +40,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1325517743
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2265181975
+    locked: 0
+  - name: Ground
+    uniqueID: 3174838883
     locked: 0
