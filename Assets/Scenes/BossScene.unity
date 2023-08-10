@@ -363,6 +363,67 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &590246403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6232858476333267672, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_Name
+      value: Map System
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232858476333267673, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9e1186ce1b75ca4882cfc5f2eac3f04, type: 3}
 --- !u!1 &624596769
 GameObject:
   m_ObjectHideFlags: 0
@@ -20370,6 +20431,71 @@ Transform:
   m_Father: {fileID: 1326872100}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &713004071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162132, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162135, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: mapToActivate
+      value: Area B1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732127813454162138, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
+      propertyPath: m_Name
+      value: Map Activator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 520f850976faa9d479e97db86b6e8b20, type: 3}
 --- !u!1001 &721270116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21329,6 +21455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossToActivate: {fileID: 1326872099}
+  bossRef: Phantom
 --- !u!61 &1160810460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21626,6 +21753,7 @@ MonoBehaviour:
   moveSpeed: 5
   timeBetweenShots1: 1
   timeBetweenShots2: 0.5
+  bossRef: Phantom
 --- !u!114 &1326872102
 MonoBehaviour:
   m_ObjectHideFlags: 0

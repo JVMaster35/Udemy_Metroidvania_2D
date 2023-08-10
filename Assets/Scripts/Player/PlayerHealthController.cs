@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerHealthController : MonoBehaviour
 {
-    public static PlayerHealthController Instance { get; private set; }
+    public static PlayerHealthController Instance;
 
     [SerializeField] private SpriteRenderer[] playerSprites;
 
-    public int currentHealth;
-    public int maxHealth;
+    [SerializeField] private int currentHealth;
+    [SerializeField] private int maxHealth;
 
     public float invincabilityLength;
     public float flashLength;
@@ -34,8 +34,6 @@ public class PlayerHealthController : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-
-        UIController.Instance.UpdateHealth(currentHealth, maxHealth);
     }
 
     void Update()
@@ -123,5 +121,10 @@ public class PlayerHealthController : MonoBehaviour
     public int GetPlayerHealth()
     {
         return currentHealth;
+    }
+
+    public int GetPlayerMaxHealth()
+    {
+        return maxHealth;
     }
 }

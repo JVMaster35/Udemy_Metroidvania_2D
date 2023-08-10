@@ -17,6 +17,7 @@ public class BossBattle : MonoBehaviour
     public float activeTime, fadeOutTime, inactiveTime;
     public float moveSpeed;
     public float timeBetweenShots1, timeBetweenShots2;
+    public string bossRef;
 
     private float activeCounter, fadeCounter, inactiveCounter;
     private float shotCounter;
@@ -223,6 +224,8 @@ public class BossBattle : MonoBehaviour
 
 
             AudioManager.Instance.PlayLevelMusic();
+
+            PlayerPrefs.SetInt(bossRef, 1);
         }
     }
 

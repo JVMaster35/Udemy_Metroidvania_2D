@@ -11,6 +11,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private Slider healthSlider;
     [SerializeField] private Image fadeScreen;
     [SerializeField] private GameObject pauseScreen;
+    [SerializeField] private GameObject fullScreenMap;
 
     public string mainMenuScene;
     public float fadeSpeed = 2f;
@@ -33,7 +34,7 @@ public class UIController : MonoBehaviour
 
     void Start()
     {
-        
+        //UpdateHealth(PlayerHealthController.Instance.currentHealth, PlayerHealthController.Instance.maxHealth);
     }
 
     void Update()
@@ -110,8 +111,13 @@ public class UIController : MonoBehaviour
         Time.timeScale = 1f;
 
         Destroy(PlayerHealthController.Instance.gameObject);
+        PlayerHealthController.Instance = null;
 
         Destroy(RespawnManager.Instance.gameObject);
+        RespawnManager.Instance = null;
+
+        Destroy(MapController.Instance.gameObject);
+        MapController.Instance = null;
 
         Instance = null;
         Destroy(gameObject);
@@ -122,5 +128,10 @@ public class UIController : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public GameObject GetFullscreenMap()
+    {
+        return fullScreenMap;
     }
 }

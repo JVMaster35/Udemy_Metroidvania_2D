@@ -33,13 +33,13 @@ public class AudioManager : MonoBehaviour
 
     public void PlayLevelMusic()
     {
-        if(musicAudio[0].isPlaying || musicAudio[2].isPlaying)
+        if(!musicAudio[1].isPlaying)
         {
             musicAudio[0].Stop();
             musicAudio[2].Stop();
-        }
 
-        musicAudio[1].Play();
+            musicAudio[1].Play();
+        }
     }
 
     public void PlayBossMusic()

@@ -6,13 +6,25 @@ public class BossActivator : MonoBehaviour
 {
     [SerializeField] private GameObject bossToActivate;
 
+    public string bossRef;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
-            bossToActivate.SetActive(true);
-
-            gameObject.SetActive(false);
+            if (PlayerPrefs.HasKey(bossRef))
+            {
+                if(PlayerPrefs.GetInt(bossRef) != 1)
+                {
+                    bossToActivate.SetActive(true);
+                    gameObject.SetActive(false);
+                }
+            }
+            else
+            {
+                bossToActivate.SetActive(true);
+                gameObject.SetActive(false);
+            }
         }
     }
 }

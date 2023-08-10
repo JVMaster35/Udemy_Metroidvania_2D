@@ -16,15 +16,15 @@ TagManager:
   - Player
   - Enemy
   - Hazard
-  - No Collisions
+  - NoCollisions
   - Shot
   - Destructible
   - PickUps
   - TriggerZone
   - Boss
   - BossShot
-  - 
-  - 
+  - Map
+  - FullscreenMap
   - 
   - 
   - 

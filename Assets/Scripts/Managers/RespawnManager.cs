@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RespawnManager : MonoBehaviour
 {
-    public static RespawnManager Instance { get; private set; }
+    public static RespawnManager Instance;
 
     [SerializeField] private GameObject deathEffect;
 
